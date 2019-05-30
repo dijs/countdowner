@@ -16,6 +16,7 @@ function useDownloads() {
         const osx = data.assets.find(({ name }) => name.indexOf('dmg') !== -1)
           .browser_download_url;
         setDownloads({
+          version: data.name,
           windows,
           osx
         });
@@ -39,7 +40,9 @@ function App() {
           <h2>Features Requested Thus Far</h2>
           <p>• Dianamic Sizing from the corner</p>
           <p>• A Color Slider in Settings For the main Color of each Theme</p>
-          <h4>Current Beta Version | beta.13</h4>
+          <h4>
+            Current Beta Version | {downloads ? downloads.version : '...'}
+          </h4>
           {downloads && (
             <div className="downloads">
               <a href={downloads.osx}>

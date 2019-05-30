@@ -105,7 +105,9 @@ main {
     }
   }
 }
-
+.phone-message {
+  display: none;
+}
 footer {
   display: flex;
   align-items: center;
@@ -131,6 +133,12 @@ footer {
         height: 200px;
       }
     }
+  }
+  .downloads {
+    display: none;
+  }
+  .phone-message {
+    display: flex;
   }
   footer {
     padding: 16px;

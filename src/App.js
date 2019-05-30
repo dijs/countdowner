@@ -24,6 +24,13 @@ function App() {
               Download the Beta for PC
             </button>
           </div>
+          <div className="phone-message">
+            <p>
+              Currently this application is only available for desktops. Please
+              comeback soon and download this Beta application on your Mac or
+              PC.
+            </p>
+          </div>
         </aside>
         <figure>
           <img alt="countdowner preview" src="/images/countdownerPreview.png" />

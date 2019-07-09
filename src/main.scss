@@ -42,7 +42,7 @@ h1 {
   font-size: 32px;
   font-weight: bold;
 }
-h1 sub {
+h1 sup {
   font-size: 16px;
 }
 h2 {
@@ -86,8 +86,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 64px;
-
+  padding: 64px 32px;
   background-image: url(/images/recPattern.svg);
   background-size: 70%;
   background-repeat: no-repeat;
@@ -97,6 +96,12 @@ main {
     .downloads {
       margin-top: 64px;
     }
+  }
+  .slick-dots li button::before {
+    color: white;
+  }
+  .slick-dots li.slick-active button:before {
+    color: white;
   }
   figure {
     margin: 0;
@@ -122,6 +127,8 @@ footer {
 }
 
 .screenshots {
+  //this padding protects the content from the caros. arrows
+  padding-left: 50px;
   width: 550px;
 }
 

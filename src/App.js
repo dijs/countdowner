@@ -35,7 +35,7 @@ function Screenshots() {
           <figure>
             <img
               alt="countdowner preview"
-              src="/images/countdownerPreview.png"
+              src="/images/countdowner-preview-1.png"
             />
           </figure>
         </div>
@@ -43,7 +43,7 @@ function Screenshots() {
           <figure>
             <img
               alt="countdowner preview"
-              src="/images/countdownerPreview.png"
+              src="/images/countdowner-preview-2.png"
             />
           </figure>
         </div>
@@ -51,7 +51,39 @@ function Screenshots() {
           <figure>
             <img
               alt="countdowner preview"
-              src="/images/countdownerPreview.png"
+              src="/images/countdowner-preview-setting-1.png"
+            />
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <img
+              alt="countdowner preview"
+              src="/images/countdowner-preview-3.png"
+            />
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <img
+              alt="countdowner preview"
+              src="/images/countdowner-preview-4.png"
+            />
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <img
+              alt="countdowner preview"
+              src="/images/countdowner-preview-setting-2.png"
+            />
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <img
+              alt="countdowner preview"
+              src="/images/countdowner-preview-5.png"
             />
           </figure>
         </div>
@@ -67,14 +99,18 @@ function App() {
       <header>
         <img alt="countdowner logo" src="/images/logo.png" />
         <h1>
-          Countdowner<sub>Beta</sub>
+          CountdownerBeta<sup>tm</sup>
         </h1>
       </header>
       <main>
         <aside>
-          <h2>Features Requested Thus Far</h2>
-          <p>• Dynamic Sizing from the corner</p>
-          <p>• A Color Slider in Settings For the main Color of each Theme</p>
+          <h2>Features Requested</h2>
+          <p>• A Color/Swatch Selector in Settings For Each Theme</p>
+          <h2>Features In the Works</h2>
+          <p>• Dynamic Sizing from the Corner</p>
+          <p>
+            • A Color Slider in Settings For the main Color of Default Theme
+          </p>
           <h4>
             Current Beta Version | {downloads ? downloads.version : '...'}
           </h4>

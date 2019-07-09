@@ -107,6 +107,18 @@ function App() {
           <h2>Features Requested</h2>
           <p>• A Color/Swatch Selector in Settings For Each Theme</p>
           <h2>Features In the Works</h2>
+          <p>
+            • We have a scrolling error on the settings page in certain sizes
+          </p>
+          <p>
+            • We are working on the verified developer cert. now, please right
+            click to open the application for now. Thank you for understanding.
+          </p>
+          <p>
+            • Car dashboard theme - is being reworked and has a current issue in
+            a short-wide format
+          </p>
+          <h2>Features Added to Beta</h2>
           <p>• Dynamic Sizing from the Corner</p>
           <p>
             • A Color Slider in Settings For the main Color of Default Theme

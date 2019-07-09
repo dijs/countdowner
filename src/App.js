@@ -30,7 +30,7 @@ function useDownloads() {
 function Screenshots() {
   return (
     <div className="screenshots">
-      <Slider dots infinite>
+      <Slider dots infinite arrows={false}>
         <div>
           <figure>
             <img

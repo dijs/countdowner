@@ -86,7 +86,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 64px 32px;
+  padding: 64px;
   background-image: url(/images/recPattern.svg);
   background-size: 70%;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ footer {
 
 .screenshots {
   //this padding protects the content from the caros. arrows
-  padding-left: 50px;
+  //padding-left: 50px;
   width: 550px;
 }
 

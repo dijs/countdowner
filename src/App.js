@@ -1,4 +1,6 @@
 import React from 'react';
+import Slider from 'react-slick';
+
 import './main.scss';
 
 function useDownloads() {
@@ -23,6 +25,39 @@ function useDownloads() {
       });
   }
   return { downloads };
+}
+
+function Screenshots() {
+  return (
+    <div className="screenshots">
+      <Slider dots infinite>
+        <div>
+          <figure>
+            <img
+              alt="countdowner preview"
+              src="/images/countdownerPreview.png"
+            />
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <img
+              alt="countdowner preview"
+              src="/images/countdownerPreview.png"
+            />
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <img
+              alt="countdowner preview"
+              src="/images/countdownerPreview.png"
+            />
+          </figure>
+        </div>
+      </Slider>
+    </div>
+  );
 }
 
 function App() {
@@ -61,9 +96,7 @@ function App() {
             </p>
           </div>
         </aside>
-        <figure>
-          <img alt="countdowner preview" src="/images/countdownerPreview.png" />
-        </figure>
+        <Screenshots />
       </main>
       <footer>
         <img alt="leath logo" src="/images/LeathRedSmall.png" />

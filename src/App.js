@@ -113,6 +113,7 @@ function App() {
             click to open the application for now. Thank you for understanding.
           </p>
           <h2>Features Added to Beta</h2>
+          <p>• Settings persist when closing and reopening app</p>
           <p>• Dynamic Sizing from the Corner</p>
           <p>
             • A Color Slider in Settings For the main Color of Default Theme

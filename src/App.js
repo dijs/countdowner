@@ -104,15 +104,22 @@ function App() {
       </header>
       <main>
         <aside>
-          <h2>Features Requested</h2>
-          <p>• A Color/Swatch Selector in Settings For Each Theme</p>
-          <p>• If you have theme or feature ideas, please tell us!</p>
-          <h2>Features In the Works</h2>
+          <h2>Features Added to Beta (this version)</h2>
+          <p>• We received an implemented our verified developer application</p>
           <p>
-            • We are working on the verified developer cert. now, please right
-            click to open the application for now. Thank you for understanding.
+            • Tool tips on settings and a way to disable them when you get to
+            know your way around the app
           </p>
-          <h2>Features Added to Beta</h2>
+          <p>• Updated setting verbiage for ease of use and understanding</p>
+          <p>• Added 5 new sound bites</p>
+          <p>
+            • Redesigned the speed sliders to show slow, normal, and fast speeds
+          </p>
+          <p>
+            • Added a setting to force and disable the window being brought to
+            the front of all other windows
+          </p>
+          <h2>Features Added to Beta (previous versions)</h2>
           <p>• Settings persist when closing and reopening app</p>
           <p>• Dynamic Sizing from the Corner</p>
           <p>
@@ -122,9 +129,18 @@ function App() {
             • A New Monochromatic and Car Dashboard Theme (we are working on a
             color picker for the car as well)
           </p>
+          <h2>
+            Ideas We've Received (if you agree pleease tell us so we know if
+            they're popular)
+          </h2>
+          <p>
+            • Soundtrack interval setting: to start the track every minute as a
+            signal to the audience of how quickly the time is passing.
+          </p>
+          <p>• Blinking timer as it nears the end</p>
           <h4>
             Current Beta Version | {downloads ? downloads.version : '...'} |
-            Last updated: July 9, 2019
+            Last updated: July 16, 2019
           </h4>
           {downloads && (
             <div className="downloads">

@@ -138,6 +138,7 @@ function App() {
             signal to the audience of how quickly the time is passing.
           </p>
           <p>• Blinking timer as it nears the end</p>
+          <p>• Add a drum roll soundtrack/alarm</p>
           <h4>
             Current Beta Version | {downloads ? downloads.version : '...'} |
             Last updated: July 16, 2019

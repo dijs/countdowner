@@ -105,7 +105,6 @@ function App() {
       <main>
         <aside>
           <h2>Features Added to Beta (this version)</h2>
-          <p>• We received an implemented our verified developer application</p>
           <p>
             • Tool tips on settings and a way to disable them when you get to
             know your way around the app
@@ -151,6 +150,14 @@ function App() {
               <a href={downloads.windows}>
                 <button>Download the Beta for PC</button>
               </a>
+              <p>
+                Since the application is still under development, it will show a
+                warning for Mac users.
+              </p>
+              <p>
+                Please Control-click the app icon, then choose Open from the
+                shortcut menu.
+              </p>
             </div>
           )}
           <div className="phone-message">

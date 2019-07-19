@@ -129,7 +129,7 @@ function App() {
             color picker for the car as well)
           </p>
           <h2>
-            Ideas We've Received (if you agree pleease tell us so we know if
+            Ideas We've Received (if you agree please tell us so we know if
             they're popular)
           </h2>
           <p>
@@ -144,10 +144,28 @@ function App() {
           </h4>
           {downloads && (
             <div className="downloads">
-              <a href={downloads.osx}>
+              <a
+                href={downloads.osx}
+                onClick={() =>
+                  window.ga('send', 'event', {
+                    transport: 'beacon',
+                    eventAction: 'download',
+                    eventCategory: 'mac'
+                  })
+                }
+              >
                 <button>Download the Beta for MAC</button>
               </a>
-              <a href={downloads.windows}>
+              <a
+                href={downloads.windows}
+                onClick={() =>
+                  window.ga('send', 'event', {
+                    transport: 'beacon',
+                    eventAction: 'download',
+                    eventCategory: 'pc'
+                  })
+                }
+              >
                 <button>Download the Beta for PC</button>
               </a>
               <p>

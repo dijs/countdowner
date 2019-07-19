@@ -146,25 +146,13 @@ function App() {
             <div className="downloads">
               <a
                 href={downloads.osx}
-                onClick={() =>
-                  window.ga('send', 'event', {
-                    transport: 'beacon',
-                    eventAction: 'download',
-                    eventCategory: 'mac'
-                  })
-                }
+                onClick={() => window.gtag('event', 'mac download')}
               >
                 <button>Download the Beta for MAC</button>
               </a>
               <a
                 href={downloads.windows}
-                onClick={() =>
-                  window.ga('send', 'event', {
-                    transport: 'beacon',
-                    eventAction: 'download',
-                    eventCategory: 'pc'
-                  })
-                }
+                onClick={() => window.gtag('event', 'pc download')}
               >
                 <button>Download the Beta for PC</button>
               </a>

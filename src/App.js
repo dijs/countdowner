@@ -152,12 +152,12 @@ function App() {
           {/*Change font and overall size in some themes*/}
           <p>• A email subscription button for app updates and news</p>
           <p>
-            • Enlarge the live countdown to take up more realestate when your
+            • Enlarge the live countdown to take up more real estate when your
             window is large.
           </p>
           {/*Make the start button easier to find in the settings*/}
           {/*remove extra space Apply Settings/-Return to Timer */}
-          {/*clay requested we default off on the tooltips - but I think during beta thats not a great idea*/}
+          {/*clay requested we default off on the tooltips - but I think during beta that's not a great idea*/}
           <p>
             • Add a dark mode and a khaki theme with a customizable primary
             color

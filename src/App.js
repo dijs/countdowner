@@ -137,11 +137,39 @@ function App() {
             signal to the audience of how quickly the time is passing.
           </p>
           <p>• Blinking timer as it nears the end</p>
+          <p>• A blank soundtrack/alarm option</p>
           <p>• Add a drum roll soundtrack/alarm</p>
+          <p>
+            • Settings Menu: Add a quick start option, or allow for a shallow
+            and in-depth view of the many setting options.
+          </p>
+          {/*enable sound preview ON for default setting*/}
+          {/*legibility issue appears in the futuristic mode specifically*/}
+          <p>
+            • In-depth legibility testing on themes for both laptop and
+            projection
+          </p>
+          {/*Change font and overall size in some themes*/}
+          <p>• A email subscription button for app updates and news</p>
+          <p>
+            • Enlarge the live countdown to take up more realestate when your
+            window is large.
+          </p>
+          {/*Make the start button easier to find in the settings*/}
+          {/*remove extra space Apply Settings/-Return to Timer */}
+          {/*clay requested we default off on the tooltips - but I think during beta thats not a great idea*/}
+          <p>
+            • Add a dark mode and a khaki theme with a customizable primary
+            color
+          </p>
+          <p>• Add a Military and Navy theme</p>
+          <p>• Add seasonal and holiday themes</p>
           <h4>
             Current Beta Version | {downloads ? downloads.version : '...'} |
             Last updated: July 16, 2019
           </h4>
+        </aside>
+        <div className="right-side">
           {downloads && (
             <div className="downloads">
               <a
@@ -173,8 +201,17 @@ function App() {
               PC.
             </p>
           </div>
-        </aside>
-        <Screenshots />
+          <Screenshots />
+          <a
+            className="mailchimp"
+            href="https://leathgroup.us11.list-manage.com/subscribe?u=cc3bf1826d2b3277c2779ca42&id=fd85f2bc93"
+          >
+            <button>
+              <strong>Subscribe Here</strong> <br />
+              for News, Updates, and Surveys
+            </button>
+          </a>
+        </div>
       </main>
       <footer>
         <img alt="leath logo" src="/images/LeathRedSmall.png" />

@@ -204,7 +204,7 @@ function App() {
           <Screenshots />
           <a
             className="mailchimp"
-            href="https://leathgroup.us11.list-manage.com/subscribe?u=cc3bf1826d2b3277c2779ca42&id=fd85f2bc93"
+            href="https://mailchi.mp/1ce0b4afdb69/countdowner-tm"
           >
             <button>
               <strong>Subscribe Here</strong> <br />

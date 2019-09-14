@@ -105,6 +105,7 @@ function App() {
       <main>
         <aside>
           <h2>Features Added to Beta (this version)</h2>
+          <p>• A blank soundtrack/alarm option</p>
           <p>
             • Tool tips on settings and a way to disable them when you get to
             know your way around the app
@@ -132,37 +133,39 @@ function App() {
             Ideas We've Received (if you agree please tell us so we know if
             they're popular)
           </h2>
-          <p>
-            • Soundtrack interval setting: to start the track every minute as a
-            signal to the audience of how quickly the time is passing.
-          </p>
           <p>• Blinking timer as it nears the end</p>
-          <p>• A blank soundtrack/alarm option</p>
           <p>• Add a drum roll soundtrack/alarm</p>
-          <p>
-            • Settings Menu: Add a quick start option, or allow for a shallow
-            and in-depth view of the many setting options.
-          </p>
-          {/*enable sound preview ON for default setting*/}
-          {/*legibility issue appears in the futuristic mode specifically*/}
-          <p>
-            • In-depth legibility testing on themes for both laptop and
-            projection
-          </p>
-          {/*Change font and overall size in some themes*/}
           <p>• A email subscription button for app updates and news</p>
           <p>
             • Enlarge the live countdown to take up more real estate when your
             window is large.
           </p>
-          {/*Make the start button easier to find in the settings*/}
-          {/*remove extra space Apply Settings/-Return to Timer */}
+          <p>• Add a Military and Navy theme</p>
+          {/*enable sound preview ON for default setting*/}
+          {/*legibility issue appears in the futuristic mode specifically*/}
+          {/*Change font and overall size in some themes*/}
+          {/* Move sounds to creative commons */}
+          <p>
+            • Soundtrack interval setting: to start the track every minute as a
+            signal to the audience of how quickly the time is passing.
+            {/* Playback frequency setting - controls how often a audio clip is repeated */}
+          </p>
+          <p>
+            • Settings Menu: Add a quick start option, or allow for a shallow
+            and in-depth view of the many setting options.
+            {/* Re-layout/Simplify settings view */}
+            {/* Make the start button easier to find in the settings */}
+            {/* Remove extra space Apply Settings/-Return to Timer */}
+          </p>
+          <p>
+            • In-depth legibility testing on themes for both laptop and
+            projection
+          </p>
           {/*clay requested we default off on the tooltips - but I think during beta that's not a great idea*/}
           <p>
             • Add a dark mode and a khaki theme with a customizable primary
             color
           </p>
-          <p>• Add a Military and Navy theme</p>
           <p>• Add seasonal and holiday themes</p>
           <h4>
             Current Beta Version | {downloads ? downloads.version : '...'} |

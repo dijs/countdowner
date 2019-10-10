@@ -133,18 +133,23 @@ function App() {
             Ideas We've Received (if you agree please tell us so we know if
             they're popular)
           </h2>
+          {/*Start of Done:*/}
+          <p>• Add a Military and Navy theme</p>
+          <p>• A email subscription button for app updates and news</p>
           <p>• Blinking timer as it nears the end</p>
           <p>• Add a drum roll soundtrack/alarm</p>
-          <p>• A email subscription button for app updates and news</p>
+          <p>• Add a dark mode with a custom accent color</p>
+          {/*Move sounds to creative commons*/}
+          {/*End of Done*/}
           <p>
             • Enlarge the live countdown to take up more real estate when your
             window is large.
           </p>
-          <p>• Add a Military and Navy theme</p>
-          {/*enable sound preview ON for default setting*/}
+          {/*enable sound preview ON and tool tips for default setting - I tried but the config file isn't working*/}
+          {/*Bug: If enabled and you change it, the next clip plays and should not.*/}
           {/*legibility issue appears in the futuristic mode specifically*/}
           {/*Change font and overall size in some themes*/}
-          {/* Move sounds to creative commons */}
+          {/* Contimue moving sounds to creative commons */}
           <p>
             • Soundtrack interval setting: to start the track every minute as a
             signal to the audience of how quickly the time is passing.
@@ -162,10 +167,7 @@ function App() {
             projection
           </p>
           {/*clay requested we default off on the tooltips - but I think during beta that's not a great idea*/}
-          <p>
-            • Add a dark mode and a khaki theme with a customizable primary
-            color
-          </p>
+          <p>• Add a khaki theme with a customizable primary color</p>
           <p>• Add seasonal and holiday themes</p>
           <h4>
             Current Beta Version | {downloads ? downloads.version : '...'} |
@@ -189,11 +191,9 @@ function App() {
               </a>
               <p>
                 Since the application is still under development, it will show a
-                warning for Mac users.
-              </p>
-              <p>
-                Please Control-click the app icon, then choose Open from the
-                shortcut menu.
+                warning for Mac users. Please{' '}
+                <strong>Control-click the app icon</strong>, then choose Open
+                from the shortcut menu.
               </p>
             </div>
           )}

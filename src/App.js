@@ -139,7 +139,9 @@ function App() {
           <p>• Blinking timer as it nears the end</p>
           <p>• Add a drum roll soundtrack/alarm</p>
           <p>• Add a dark mode with a custom accent color</p>
-          {/*Move sounds to creative commons*/}
+          {/*• legibility issue appears in the futuristic mode specifically*/}
+          {/*• Move sounds to creative commons*/}
+          {/*• Added custom fonts font and overall size in futuristic and US army themes*/}
           {/*End of Done*/}
           <p>
             • Enlarge the live countdown to take up more real estate when your
@@ -147,8 +149,9 @@ function App() {
           </p>
           {/*enable sound preview ON and tool tips for default setting - I tried but the config file isn't working*/}
           {/*Bug: If enabled and you change it, the next clip plays and should not.*/}
-          {/*legibility issue appears in the futuristic mode specifically*/}
-          {/*Change font and overall size in some themes*/}
+          {/*• Add custom fonts font and overall size in car and US navy themes*/}
+          {/*• Add custom background for car theme*/}
+          {/*• Work on resizing for us army theme*/}
           {/* Contimue moving sounds to creative commons */}
           <p>
             • Soundtrack interval setting: to start the track every minute as a

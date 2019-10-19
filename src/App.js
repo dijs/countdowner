@@ -142,13 +142,15 @@ function App() {
           {/*• legibility issue appears in the futuristic mode specifically*/}
           {/*• Move sounds to creative commons*/}
           {/*• Added custom fonts font and overall size in futuristic and US army themes*/}
+          {/*enable sound preview ON and tool tips for default setting - I tried but the config file isn't working*/}
+          {/*Bug: If enabled and you change it, the next clip plays and should not.*/}
+          {/* Remove extra space Apply Settings/-Return to Timer */}
+          {/* Playback frequency setting - controls how often a audio clip is repeated */}
           {/*End of Done*/}
           <p>
             • Enlarge the live countdown to take up more real estate when your
             window is large.
           </p>
-          {/*enable sound preview ON and tool tips for default setting - I tried but the config file isn't working*/}
-          {/*Bug: If enabled and you change it, the next clip plays and should not.*/}
           {/*• Add custom fonts font and overall size in car and US navy themes*/}
           {/*• Add custom background for car theme*/}
           {/*• Work on resizing for us army theme*/}
@@ -156,14 +158,12 @@ function App() {
           <p>
             • Soundtrack interval setting: to start the track every minute as a
             signal to the audience of how quickly the time is passing.
-            {/* Playback frequency setting - controls how often a audio clip is repeated */}
           </p>
           <p>
             • Settings Menu: Add a quick start option, or allow for a shallow
             and in-depth view of the many setting options.
             {/* Re-layout/Simplify settings view */}
             {/* Make the start button easier to find in the settings */}
-            {/* Remove extra space Apply Settings/-Return to Timer */}
           </p>
           <p>
             • In-depth legibility testing on themes for both laptop and
@@ -172,6 +172,7 @@ function App() {
           {/*clay requested we default off on the tooltips - but I think during beta that's not a great idea*/}
           <p>• Add a khaki theme with a customizable primary color</p>
           <p>• Add seasonal and holiday themes</p>
+          {/* check tooltips */}
           <h4>
             Current Beta Version | {downloads ? downloads.version : '...'} |
             Last updated: July 16, 2019

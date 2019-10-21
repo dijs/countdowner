@@ -146,19 +146,20 @@ function App() {
           {/*Bug: If enabled and you change it, the next clip plays and should not.*/}
           {/* Remove extra space Apply Settings/-Return to Timer */}
           {/* Playback frequency setting - controls how often a audio clip is repeated */}
+          {/*• Work on resizing for us army theme*/}
+          <p>
+            • Soundtrack interval setting: to start the track every minute as a
+            signal to the audience of how quickly the time is passing.
+          </p>
+          {/*• Add custom background for car theme*/}
           {/*End of Done*/}
           <p>
             • Enlarge the live countdown to take up more real estate when your
             window is large.
           </p>
           {/*• Add custom fonts font and overall size in car and US navy themes*/}
-          {/*• Add custom background for car theme*/}
-          {/*• Work on resizing for us army theme*/}
+          {/*• check small and large screen sizes for a responsive car theme*/}
           {/* Contimue moving sounds to creative commons */}
-          <p>
-            • Soundtrack interval setting: to start the track every minute as a
-            signal to the audience of how quickly the time is passing.
-          </p>
           <p>
             • Settings Menu: Add a quick start option, or allow for a shallow
             and in-depth view of the many setting options.

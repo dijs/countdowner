@@ -1,5 +1,6 @@
 $white: #e7e7e7;
 $red: #c51010;
+$teal: #0e3842;
 
 // These rules fill the viewport
 html {
@@ -84,12 +85,12 @@ header {
 
 main {
   display: flex;
-
   justify-content: space-between;
   background-image: url(/images/recPattern.svg);
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: bottom right;
+
   @media only screen and (min-width: 1001px) {
     flex-direction: row;
     padding: 32px 5vw;
@@ -122,6 +123,31 @@ main {
 }
 .phone-message {
   display: none;
+}
+.feature-section {
+  color: white;
+  background: $teal;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  @media only screen and (min-width: 1001px) {
+    width: 90vw;
+    flex-direction: row;
+    padding: 32px 5vw;
+    justify-content: space-between;
+    div {
+      width: 40vw;
+      margin: 0;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    flex-direction: column;
+    padding: 32px 10vw;
+    div {
+      width: 75vw;
+      margin: 0;
+    }
+  }
 }
 footer {
   display: flex;

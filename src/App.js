@@ -87,6 +87,14 @@ function Screenshots() {
             />
           </figure>
         </div>
+        <div>
+          <figure>
+            <img
+              alt="countdowner preview"
+              src="/images/countdowner-preview-setting-3.png"
+            />
+          </figure>
+        </div>
       </Slider>
     </div>
   );
@@ -105,78 +113,31 @@ function App() {
       <main>
         <aside>
           <h2>Features Added to Beta (this version)</h2>
-          <p>• A blank soundtrack/alarm option</p>
-          <p>
-            • Tool tips on settings and a way to disable them when you get to
-            know your way around the app
-          </p>
-          <p>• Updated setting verbiage for ease of use and understanding</p>
-          <p>• Added 5 new sound bites</p>
-          <p>
-            • Redesigned the speed sliders to show slow, normal, and fast speeds
-          </p>
-          <p>
-            • Added a setting to force and disable the window being brought to
-            the front of all other windows
-          </p>
-          <h2>Features Added to Beta (previous versions)</h2>
-          <p>• Settings persist when closing and reopening app</p>
-          <p>• Dynamic Sizing from the Corner</p>
-          <p>
-            • A Color Slider in Settings For the main Color of Default Theme
-          </p>
-          <p>
-            • A New Monochromatic and Car Dashboard Theme (we are working on a
-            color picker for the car as well)
-          </p>
-          <h2>
-            Ideas We've Received (if you agree please tell us so we know if
-            they're popular)
-          </h2>
-          {/*Start of Done:*/}
-          <p>• Add a Military and Navy theme</p>
+          <p>• New Army and Navy themes</p>
           <p>• A email subscription button for app updates and news</p>
-          <p>• Blinking timer as it nears the end</p>
-          <p>• Add a drum roll soundtrack/alarm</p>
-          <p>• Add a dark mode with a custom accent color</p>
-          {/*• legibility issue appears in the futuristic mode specifically*/}
-          {/*• Move sounds to creative commons*/}
-          {/*• Added custom fonts font and overall size in futuristic and US army themes*/}
-          {/*enable sound preview ON and tool tips for default setting - I tried but the config file isn't working*/}
-          {/*Bug: If enabled and you change it, the next clip plays and should not.*/}
-          {/* Remove extra space Apply Settings/-Return to Timer */}
-          {/* Playback frequency setting - controls how often a audio clip is repeated */}
-          {/*• Work on resizing for us army theme*/}
+          <p>• Blinking timer as the countdown nears the end</p>
+          <p>• Several new soundtracks and alarms</p>
+          <p>• New dark mode with a custom accent color</p>
           <p>
             • Soundtrack interval setting: to start the track every minute as a
             signal to the audience of how quickly the time is passing.
           </p>
-          {/*• Add custom background for car theme*/}
-          {/*End of Done*/}
+          <p>• Improved legibility in the futuristic theme</p>
           <p>
-            • Enlarge the live countdown to take up more real estate when your
-            window is large.
+            • Many sounds are now marked CC - indecating that they are sourced
+            from the creative commons
           </p>
-          {/*• Add custom fonts font and overall size in car and US navy themes*/}
-          {/*• check small and large screen sizes for a responsive car theme*/}
-          {/* Contimue moving sounds to creative commons */}
+          <p>• New custom fonts for many of our themes</p>
+          <p>• Fixed several known and reported bugs</p>
           <p>
-            • Settings Menu: Add a quick start option, or allow for a shallow
-            and in-depth view of the many setting options.
-            {/* Re-layout/Simplify settings view */}
-            {/* Make the start button easier to find in the settings */}
+            • New playback frequency setting - controls how often a audio clip
+            is repeated{' '}
           </p>
-          <p>
-            • In-depth legibility testing on themes for both laptop and
-            projection
-          </p>
-          {/*clay requested we default off on the tooltips - but I think during beta that's not a great idea*/}
-          <p>• Add a khaki theme with a customizable primary color</p>
-          <p>• Add seasonal and holiday themes</p>
-          {/* check tooltips */}
+          <p>• Added our first textured custom background to the car theme</p>
+
           <h4>
             Current Beta Version | {downloads ? downloads.version : '...'} |
-            Last updated: July 16, 2019
+            Last updated: Oct 23, 2019
           </h4>
         </aside>
         <div className="right-side">
@@ -221,6 +182,63 @@ function App() {
           </a>
         </div>
       </main>
+      <div className="feature-section">
+        <div>
+          <h2>
+            Ideas We've Received (if you agree please tell us so we know if
+            they're popular)
+          </h2>
+          <p>
+            • Enlarge the live countdown to take up more real estate when your
+            window is large.
+          </p>
+          {/*• Add custom fonts font and overall size in car and US navy themes*/}
+          {/* Contimue moving sounds to creative commons */}
+          <p>
+            • Settings Menu: Add a quick start option, or allow for a shallow
+            and in-depth view of the many setting options.
+            {/* Re-layout/Simplify settings view */}
+            {/* Make the start button easier to find in the settings */}
+          </p>
+          <p>
+            • In-depth legibility testing on themes for both laptop and
+            projection
+          </p>
+          {/*clay requested we default off on the tooltips - but I think during beta that's not a great idea*/}
+          <p>• Add a khaki theme with a customizable primary color</p>
+          <p>• Add seasonal and holiday themes</p>
+          <p>• Move all available sounds to Creative commons</p>
+
+          {/* check tooltips */}
+        </div>
+        <div>
+          <h2>Full Features List</h2>
+          <p>• A blank soundtrack/alarm option</p>
+          <p>
+            • Tool tips on settings and a way to disable them when you get to
+            know your way around the app
+          </p>
+          <p>• Updated setting verbiage for ease of use and understanding</p>
+          <p>• Added 5 new sound bites</p>
+          <p>
+            • Redesigned the speed sliders to show slow, normal, and fast speeds
+          </p>
+          <p>
+            • Added a setting to force and disable the window being brought to
+            the front of all other windows
+          </p>
+          <p>• Settings persist when closing and reopening app</p>
+          <p>• Dynamic Sizing from the Corner</p>
+          <p>
+            • A Color Slider in Settings For the main Color of Default Theme
+          </p>
+          <p>
+            • A New Monochromatic and Car Dashboard Theme (we are working on a
+            color picker for the car as well)
+          </p>
+        </div>
+      </div>
+
       <footer>
         <img alt="leath logo" src="/images/LeathRedSmall.png" />
         If you are interested in helping with our beta test by providing

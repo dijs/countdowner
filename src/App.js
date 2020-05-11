@@ -140,10 +140,11 @@ function App() {
           <p>
             <strong>
               <em>
-                We are currently experiencing issues with futuristic styles - if
-                you have problems press command (or control for mac) + "R" to
-                refresh the application. Also, for accompanying text, please
-                paster your text in for now as we sort these issues.
+                We are currently experiencing some issues with this beta
+                version... if you have problems press command (or control for
+                mac) + "R" to refresh the application. Also, for accompanying
+                text, please paste your text in for now as we sort these issues.
+                Thank you for your patience.
               </em>
             </strong>
           </p>
@@ -154,6 +155,8 @@ function App() {
           </p>
           <p>• Updated sliders in setting for easier use.</p>
           <p>• Added a issue support questionaire to the help/info menu.</p>
+          <p>• Custom fronts for Car and Navy themes.</p>
+          <p>• Added a new khaki theme with a customizable primary color</p>
           <p>• Fixed some more known bugs.</p>
           <h4>
             Current Beta Version | {downloads ? downloads.version : '...'} |
@@ -209,16 +212,9 @@ function App() {
             they're popular)
           </h2>
           <p>
-            • Enlarge the live countdown to take up more real estate when your
-            window is large.
-          </p>
-          {/*• Add custom fonts font and overall size in car and US navy themes*/}
-          <p>
             • In-depth legibility testing on themes for both laptop and
             projection
           </p>
-          {/*clay requested we default off on the tooltips*/}
-          <p>• Add a khaki theme with a customizable primary color</p>
           <p>• Add seasonal and holiday themes</p>
           <p>• Move all available sounds to Creative commons</p>
           {/* Contimue moving sounds to creative commons */}

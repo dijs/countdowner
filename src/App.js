@@ -136,15 +136,15 @@ function App() {
       </header>
       <main>
         <aside>
-          <h2>Features Added to Beta (this version)</h2>
+          <h2>Recent Features Added to Beta</h2>
           <p>
             <strong>
               <em>
-                We are currently experiencing some issues with this beta
-                version... if you have problems press command (or control for
-                mac) + "R" to refresh the application. Also, for accompanying
-                text, please paste your text in for now as we sort these issues.
-                Thank you for your patience.
+                We are just fixed some issues with this beta version... if you
+                have problems press command (or control for mac) + "R" to
+                refresh the application. Redownload the app if needed. Also, for
+                accompanying text, please paste your text in for now as we sort
+                these issues. Thank you for your patience.
               </em>
             </strong>
           </p>
@@ -180,9 +180,10 @@ function App() {
               </a>
               <p>
                 Since the application is still under development, it will show a
-                warning for Mac users. Please shift-click or{' '}
+                warning for an un-verified developer. Please shift-click or{' '}
                 <strong>Control-click the app icon</strong>, then choose Open
-                from the shortcut menu.
+                from the shortcut menu. For PC users, just follow the prompt
+                window displayed when opening the application.
               </p>
             </div>
           )}
@@ -206,7 +207,7 @@ function App() {
         </div>
       </main>
       <div className="feature-section">
-        <div>
+        <div className="left-ideas">
           <h2>
             Ideas We've Received (if you agree please tell us so we know if
             they're popular)
@@ -217,8 +218,13 @@ function App() {
           </p>
           <p>• Add seasonal and holiday themes</p>
           <p>• Move all available sounds to Creative commons</p>
-          {/* Contimue moving sounds to creative commons */}
+          {/* Contimue moving sounds to c
+          reative commons */}
           {/* check tooltips */}
+          <p>
+            • These really are all we have recieved and not implemented, so
+            please share your awesome ideas with us.
+          </p>
         </div>
         <div>
           <h2>Full Features List</h2>
@@ -266,13 +272,15 @@ function App() {
 
       <footer>
         <img alt="leath logo" src="/images/LeathRedSmall.png" />
-        If you are interested in helping with our beta test by providing
-        feedback on this app, please email
-        <a href="mailto:team@vanderdys.design">team@vanderdys.design</a> or
-        fillout this{' '}
-        <a href="https://team846642.typeform.com/to/l1SDaB">
-          online feedback form.
-        </a>
+        <p>
+          If you are interested in helping with our beta test by providing
+          feedback on this app, please email
+          <a href="mailto:team@vanderdys.design">team@vanderdys.design</a> or
+          fillout this{' '}
+          <a href="https://team846642.typeform.com/to/l1SDaB">
+            online feedback form.
+          </a>
+        </p>
       </footer>
     </div>
   );

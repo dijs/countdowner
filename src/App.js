@@ -137,17 +137,7 @@ function App() {
       <main>
         <aside>
           <h2>Recent Features Added to Beta</h2>
-          <p>
-            <strong>
-              <em>
-                We are just fixed some issues with this beta version... if you
-                have problems press command (or control for mac) + "R" to
-                refresh the application. Redownload the app if needed. Also, for
-                accompanying text, please paste your text in for now as we sort
-                these issues. Thank you for your patience.
-              </em>
-            </strong>
-          </p>
+          <p />
           <p>• Seperated settings page into tabs for easier navigation.</p>
           <p>
             • Added alarm and soundtrack volumes for a better experience during
@@ -179,9 +169,9 @@ function App() {
                 <button>Download the Beta for PC</button>
               </a>
               <p>
-                Since the application is still under development, it will show a
-                warning for an un-verified developer. Please shift-click or{' '}
-                <strong>Control-click the app icon</strong>, then choose Open
+                Opening this application will show a warning for an un-verified
+                developer on most devices. Please shift-click or
+                <strong> Control-click the app icon</strong>, then choose Open
                 from the shortcut menu. For PC users, just follow the prompt
                 window displayed when opening the application.
               </p>
@@ -194,7 +184,9 @@ function App() {
               PC.
             </p>
           </div>
-          <Screenshots />
+          <div className="image-container">
+            <Screenshots />
+          </div>
           <a
             className="mailchimp"
             href="https://mailchi.mp/1ce0b4afdb69/countdowner-tm"
@@ -209,8 +201,8 @@ function App() {
       <div className="feature-section">
         <div className="left-ideas">
           <h2>
-            Ideas We've Received (if you agree please tell us so we know if
-            they're popular)
+            Ideas We've Received & Things We Have in Mind (if you agree please
+            tell us so we know if they're popular)
           </h2>
           <p>
             • In-depth legibility testing on themes for both laptop and
@@ -224,6 +216,11 @@ function App() {
           <p>
             • These really are all we have recieved and not implemented, so
             please share your awesome ideas with us.
+          </p>
+          <h2>Known Bugs on our Radar</h2>
+          <p>
+            • The mute button on the home page only mutes the soundtrack and the
+            alarm
           </p>
         </div>
         <div>

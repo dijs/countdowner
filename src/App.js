@@ -138,15 +138,15 @@ function App() {
         <aside>
           <h2>Recent Features Added to Beta</h2>
           <p />
-          <p>• Seperated settings page into tabs for easier navigation.</p>
+          <p>• Separated settings page into tabs for easier navigation.</p>
           <p>
             • Added alarm and soundtrack volumes for a better experience during
-            video conferencing.
+            video- conferencing.
           </p>
-          <p>• Updated sliders in setting for easier use.</p>
-          <p>• Added a issue support questionaire to the help/info menu.</p>
-          <p>• Custom fronts for Car and Navy themes.</p>
-          <p>• Added a new khaki theme with a customizable primary color</p>
+          <p>• Updated sliders in settings for easier use.</p>
+          <p>• Added an issue support questionaire to the info/help menu.</p>
+          <p>• Custom fonts for Car and Navy themes.</p>
+          <p>• Added a new khaki theme with a customizable primary color.</p>
           <p>• Fixed some more known bugs.</p>
           <h4>
             Current Beta Version | {downloads ? downloads.version : '...'} |
@@ -169,8 +169,8 @@ function App() {
                 <button>Download the Beta for PC</button>
               </a>
               <p>
-                Opening this application will show a warning for an un-verified
-                developer on most devices. Please shift-click or
+                Since the application is still under development, it will show a
+                warning for an un-verified developer. Please shift-click or 
                 <strong> Control-click the app icon</strong>, then choose Open
                 from the shortcut menu. For PC users, just follow the prompt
                 window displayed when opening the application.
